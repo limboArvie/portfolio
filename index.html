@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>Arvie Limbo</title>
+    <link rel="icon" type="image/x-icon" href="./images/site-logo.png">
+
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-main-theme">
+      <a class="navbar-brand" href="#"><img class="rounded" width="40" src="./images/site-logo.png" alt=""></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-center text-md-left text-bold-theme">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="home">
+        <div
+          class="container-fluid bg-gray-theme text-align-left min-vh-100 p-3 p-md-5"
+        >
+          <div class="row d-flex justify-content-center">
+            <div class-="card col-lg-6 col-12">
+              <img
+                class="d-none d-lg-flex mt-5 mt-md-0 rounded border-radius-img"
+                width="400"
+                src="./images/banner-pic.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card col-lg-6 col-12 bg-dark text-white p-5 mt-lg-0 mt-3">
+              <div class="row">
+                <div class="col-lg-12 col-9 p-3">
+                  <h1 class="text-bold-theme">Arvie Limbo</h1>
+                  <h3 class="text-secondary mb-5 text-bold-theme">Senior Software Engineer II</h3>
+                </div>
+                <div class="col-3">
+                  <img class="d-none d-md-flex d-lg-none rounded-circle p-3" width="120" src="./images/profile-pic.jpg" alt="">
+                </div>
+              </div>
+              
+              <p class="text-justify">
+                A Full Stack Web Developer with more than 7 years of
+                professional experience in developing web applications using
+                .Net C#, HTML, CSS, JavaScript (React, Angular and Vue) and Node JS. A Microsoft
+                Certified in Azure Fundamentals and formerly a Certified SAFe
+                5.0 Scrum Master and Practitioner.
+              </p>
+              <p class="text-justify">
+                He has experiences on leading both Agile and Non-Agile teams,
+                architecturing frontend and backend solutions for web
+                applications from scratch and database modeling.
+              </p>
+              <p class="text-justify">
+                His previous project engagements include software solutions for
+                industries under transportation and logistics, banking and
+                finance, wind technology and commercial real estate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div
+          class="container-fluid text-center bg-white-theme min-vh-100 p-3 p-md-5"
+        >
+          <h1 class="mt-5 mt-md-4 text-bold-theme">Projects</h1>
+
+          <div class="d-inline-block d-lg-flex justify-content-center flex-column mx-auto flex-lg-row p-5">
+            
+            <div class="card m-3" style="width: 20rem;">
+              <img src="./images/project1.png" class="card-img-top" height="150" alt="">
+              <div class="card-body bg-main-theme text-white">
+                <h3 class="card-title">Commercial Real Estate Application</h3>
+                <p class="card-text">Developed using React for Frontend, GraphQL and .Net C# for Backend and MongoDB for the Database.</p>
+                
+              </div>
+            </div>
+
+            <div class="card m-3" style="width: 20rem;">
+              <img src="./images/project3.png" class="card-img-top" height="150" alt="">
+              <div class="card-body bg-main-theme text-white">
+                <h3 class="card-title">Fleet Management Application</h3>
+                <p class="card-text">Developed using Angular for Frontend, .Net Core C# for Backend and SQL Server and Snowflake for the database.</p>
+                
+              </div>
+            </div>
+
+            <div class="card m-3" style="width: 20rem;">
+              <img src="./images/project4.png" class="card-img-top" height="150" alt="">
+              <div class="card-body bg-main-theme text-white">
+                <h3 class="card-title">Wind Data Insight Platform</h3>
+                <p class="card-text">Developed using ReactJs, OpenLayers, Plotly.js for Frontend elements and Java for the Backend.</p>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="tools">
+        <div
+          class="container-fluid bg-gray-theme text-white text-align-left min-vh-100 p-3 p-md-5 text-center"
+        >
+          <h1 class="mt-5 mt-md-4 text-bold-theme">Tools</h1>
+          <div class="d-flex flex-column justify-content-center">
+            <div class="mt-3">
+              <h3>Programming Languages and Frameworks</h3>
+              <div class="p-3">
+                <img class="m-3" src="./images/tools/c-sharp-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/html-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/css-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/bootstrap-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/material-ui-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/js-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/angular-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/react-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/vue-icon.png" width="50" alt="">
+              </div>
+            </div>
+
+            <div class="mt-3">
+              <h3>Backend and Databases</h3>
+              <div class="p-3">
+                <img class="m-3" src="./images/tools/sql-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/postgresql-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/mongodb-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/graphql-icon.png" width="50" alt="">
+              </div>
+            </div>
+
+            <div class="mt-3">
+              <h3>DevOps and Version Control</h3>
+              <div class="p-3">
+                <img class="m-3" src="./images/tools/git-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/github-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/gitlab-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/azure-icon.png" width="150" alt="">
+              </div>
+            </div>
+
+            <div class="mt-3">
+              <h3>IDE and Other Tools</h3>
+              <div class="p-3">
+                <img class="m-3" src="./images/tools/visual-studio-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/visual-studio-code-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/notepad-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/sublime-icon.png" width="50" alt="">
+                <img class="m-3" src="./images/tools/postman-icon.png" width="50" alt="">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div
+          class="container-fluid bg-white-theme text-center min-vh-100 p-3 p-md-5 d-flex flex-column justify-content-center"
+        >
+        <h1 class="mt-5 mt-md-4 text-bold-theme">Contact Information</h1>
+          <div class="d-flex justify-content-center">
+            <div class="card w-50 bg-white-theme">
+              <div class="card-body">
+                <a href="mailto:arvieabrencillolimbo@gmail.com"><h5 class="card-title text-bold-theme text-dark">arvieabrencillolimbo@gmail.com</h5></a>
+                <p class="card-text">+63 999 220 9970 | +63 966 406 8319</p>
+
+                <div>
+                  <a class="p-2" href="https://www.facebook.com/vitoclimbo/"><img width="40" src="./images/fb-icon.png" alt=""></a>
+                  <a class="p-2" href="https://www.linkedin.com/in/arvie-limbo-a32b96118/"><img width="40" src="./images/linkedin-icon.png" alt=""></a>
+                  <a class="p-2" href="https://github.com/limboArvie"><img width="40" src="./images/github-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="bg-main-theme text-white d-flex justify-content-center p-2">
+      <img class="rounded p-2" width="40" src="./images/site-logo.png" alt="">
+      <span class="p-2">Arvie Limbo</span>
+      <span class="p-2">|</span>
+      <span class="p-2">Senior Software Engineer II</span>
+      <span class="p-2">|</span>
+      <span class="p-2">2023</span>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
