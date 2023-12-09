@@ -23,7 +23,7 @@ html {
 
 .bg-dark-theme {
     background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+    background-image: linear-gradient(315deg, #252526 0%, #000000 60%);
 }
 
 .bg-white-theme {
@@ -39,6 +39,15 @@ html {
 .bg-transparent-theme {
     background-color: rgba(52,58,64, 0.8);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img-banner {
+    border-radius: 100%;
+    box-shadow: 0px 0px 30px 5px rgba(0, 151, 178, 0.90);
+}
+
+.img-banner:hover {
+    box-shadow: 0px 0px 30px 20px rgba(0, 151, 178, 0.90);
 }
 
 .img-box-shadow {
@@ -73,4 +82,29 @@ html {
 
 .project-description {
     font-size: 20px;
+}
+
+.aboutme-link:hover {
+    color: #0097B2;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.bg-dark-shadow {
+    box-shadow: 0px 0px 30px 5px rgba(0, 151, 178, 0.90);
+}
+
+.project-border {
+    border: 2px solid #0097B2;
+}
+
+.skill-box {
+    box-shadow: 0px 0px 30px 5px rgba(0, 151, 178, 0.90);
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 2px solid #0097B2;
+}
+
+.img-tool:hover {
+    box-shadow: 0px 0px 30px 5px rgba(0, 151, 178, 0.90);
 }
