@@ -10,6 +10,10 @@ html {
     border-bottom: 3px solid #0097B2;
 }
 
+.active {
+    border-bottom: 3px solid #0097B2;
+}
+
 
 .bg-main-theme {
     background-color: #2d3436;
