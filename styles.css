@@ -90,10 +90,12 @@ html {
     font-size: 45px;
 }
 
-.mailto-link:hover {
-    color: #0097B2 !important;
+.mailto-link {
     text-decoration: none !important;
-    border-bottom: 1px solid #0097B2;
+}
+
+.mailto-link-p:hover {
+    color: #0097B2 !important;
 }
 
 .bg-dark-shadow {
